@@ -1,0 +1,203 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top{
+  background-color:white;
+  
+  width: 100%;
+  height: 250px;
+}
+
+.bottom{
+  display: flex;
+}
+.left{
+  background-color: #545454;
+  width: 35%;
+  height: 880px;
+  
+}
+
+.right{
+  background-color:rgb(255, 255, 255);
+  width: 800px;
+  height: 880px;
+  
+}
+
+.App{
+  width: 8.27in;
+  height: 11.69in;
+  margin:auto;
+ 
+  
+}
+
+.header{
+  color: #FFD600;
+  font-size:30px ;
+}
+
+.insideleft1{
+  margin-top: 200px;
+  margin-left:40px;
+  font-size: 20px;
+}
+
+.insideleft2{
+  margin-top: 40px;
+  margin-left:40px;
+  font-size: 20px;
+}
+
+.listskill{
+  color: white;
+}
+
+
+.insideright1{
+  margin-top: 60px;
+  
+}
+
+.top1{
+  margin-left: 40px;
+  color: black;
+  font-size:30px ;
+}
+
+.top2{
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size:30px ;
+  color: black;
+  
+}
+
+.bot1{
+  margin-left: 60px;
+  font-size:20px ;
+  
+}
+
+.bot3{
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.name{
+  padding-top: 20px;
+  margin-left: 500px;
+  font-size: 25px;
+}
+
+.school{
+  margin-left: 470px;
+  font-size: 20px;
+}
+
+
+.topright2{
+  display: flex;
+  gap: 10px;
+  margin-top: 116px;
+  margin-left: 305px;
+}
+
+
+.diamond1 {
+  width: 160px;
+  height: 160px;
+  background-color: #9D1515;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 40px;
+  right: 1000px;
+  
+
+}
+
+.india{
+  width: 130px;
+  height: 130px;
+  background-color: #0deb2a;
+  margin-top: 15px ;
+  margin-left: 15px;
+  overflow: hidden;
+}
+
+.picture{
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 200px;
+  height: 200px;
+  transform: rotate(-45deg);
+  object-fit: cover;
+  
+}
+
+.diamond2 {
+  width: 160px;
+  height: 160px;
+  background-color: #9D1515; 
+  transform: rotate(45deg);
+  position: absolute;
+  top: -90px;
+  left: 550px;
+
+}
+
+.tri1 {
+  width: 0;
+  height: 0;
+  border-top: 205px solid transparent;
+  border-left: 205px solid #9D1515;
+  border-bottom: 205px solid transparent;
+  position: absolute;
+  top:45px;
+}
+
+
+.square2 {
+  top: 120px;
+  left: 715px;
+  width: 600px; 
+  height: 40px; 
+  background-color: #B83131; 
+  position: absolute;
+}
+
+.square1 {
+  top: 100px;
+  left: 715px;
+  width: 600px; 
+  height: 40px; 
+  background-color: #545454; 
+  position: absolute;
+}
+
+.line1 {
+  top: 180px;
+  left: 815px;
+  width: 500px; 
+  height: 3px; 
+  background-color: #000000; 
+  position: absolute; 
+}
+
+.line2 {
+  top: 220px;
+  left: 775px;
+  width: 540px; 
+  height: 3px; 
+  background-color: #000000; 
+  position: absolute; 
+}
+
+.contact{
+  display: flex;
+  gap: 5px;
+}
