@@ -81,7 +81,12 @@ function App() {
 
               </div>
               <div className="list">
-
+              <ul>
+              <li>Guitar</li>
+              <li>Volley ball</li>
+              <li>Play game</li>
+              <li>Swimming</li>
+              </ul>
               </div>
 
             </div>
