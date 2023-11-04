@@ -1,5 +1,6 @@
 /* For pc */
-@media (min-width: 1024px) {
+
+@media (min-width: 1200px) {
   .top{
     background-color:white;
     
@@ -214,11 +215,448 @@ body {
 
 
 
-/* For teblet*/
-@media (max-width: 1023px) {
+/* ipad แนวตั้ง  */
+@media (max-width: 1199px)and (orientation: portrait)and (min-width: 768px) {
 
   .top{
-    background-color:blue;
+    background-color:white;
+    
+    width: 100%;
+    height: 250px;
+  }
+  
+  .bottom{
+    display: flex;
+  }
+  .left{  
+    background-color: #545454;
+    width: 260px;
+    height: 880px;
+    
+  }
+  
+  .right{
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    height: 880px;
+    
+  }
+  
+  .App{
+    width: 100%;
+    height: 11.69in;
+
+  }
+  
+  .header{
+    color: #FFD600;
+    font-size:30px ;
+  }
+  
+  .list{
+    color: white;
+  }
+
+
+  .insideleft1{
+    margin-top: 200px;
+    margin-left:40px;
+    font-size: 20px;
+  }
+  
+  .insideleft2{
+    margin-top: 40px;
+    margin-left:40px;
+    font-size: 20px;
+  }
+  
+  .listskill{
+    color: white;
+  }
+  
+  
+  .insideright1{
+    margin-top: 60px;
+    
+  }
+  
+  .top1{
+    margin-left: 40px;
+    color: black;
+    font-size:30px ;
+  }
+  
+  .top2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size:30px ;
+    color: black;
+    
+  }
+  
+  .bot1{
+    margin-left: 60px;
+    font-size:20px ;
+    
+  }
+  
+  .bot3{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+  
+  .name{
+    width: 100%;
+    padding-top: 20px;
+    margin-left: 570px;
+    font-size: 25px;
+  }
+  
+  .school{
+    width: 100%;
+    margin-left: 535px;
+    font-size: 20px;
+  }
+  
+  .topright1{
+    width: 100%;
+  }
+
+  .topright2{
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    margin-top: 110px;
+    margin-left: 405px;
+  }
+  
+  
+  .diamond1 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 40px;
+    left: 155px;
+    
+  
+  }
+  
+  .india{
+    width: 130px;
+    height: 130px;
+    margin-top: 15px ;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  
+  .picture{
+    margin-top: -30px;
+    margin-left: -30px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-45deg);
+    object-fit: cover;
+    
+  }
+  
+  .diamond2 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515; 
+    transform: rotate(45deg);
+    position: absolute;
+    top: -90px;
+    left: 25px;
+  
+  }
+  
+  .tri1 {
+    width: 0;
+    height: 0;
+    border-top: 205px solid transparent;
+    border-left: 205px solid #9D1515;
+    border-bottom: 205px solid transparent;
+    position: absolute;
+    top:45px;
+  }
+  
+  
+  .square2 {
+    top: 120px;
+    left: 300px;
+    width: 880px; 
+    height: 40px; 
+    background-color: #B83131; 
+    position: absolute;
+  }
+  
+  .square1 {
+    top: 100px;
+    left: 315px;
+    width: 865px; 
+    height: 40px; 
+    background-color: #545454; 
+    position: absolute;
+  }
+  
+  .line1 {
+    top: 180px;
+    left: 300px;
+    width: 860px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
+  }
+  
+  .line2 {
+    top: 220px;
+    left: 260px;
+    width: 900px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
+  }
+  
+  .contact{
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    gap: 5px;
+  } 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+/* ipad แนวนอน */
+@media (max-width: 1199px)and (orientation: landscape)and (min-width:860px) {
+
+  .top{
+    background-color:white;
+    
+    width: 100%;
+    height: 250px;
+  }
+  
+  .bottom{
+    display: flex;
+  }
+  .left{  
+    background-color: #545454;
+    width: 205px;
+    height: 880px;
+    
+  }
+  
+  .right{
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    height: 880px;
+    
+  }
+  
+  .App{
+    width: 100%;
+    height: 11.69in;
+
+  }
+  
+  .header{
+    color: #FFD600;
+    font-size:30px ;
+  }
+  
+  .list{
+    color: white;
+  }
+
+
+  .insideleft1{
+    margin-top: 200px;
+    margin-left:40px;
+    font-size: 20px;
+  }
+  
+  .insideleft2{
+    margin-top: 40px;
+    margin-left:40px;
+    font-size: 20px;
+  }
+  
+  .listskill{
+    color: white;
+  }
+  
+  
+  .insideright1{
+    margin-top: 60px;
+    
+  }
+  
+  .top1{
+    margin-left: 40px;
+    color: black;
+    font-size:30px ;
+  }
+  
+  .top2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size:30px ;
+    color: black;
+    
+  }
+  
+  .bot1{
+    margin-left: 60px;
+    font-size:20px ;
+    
+  }
+  
+  .bot3{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size: 20px;
+  }
+  
+  .name{
+    width: 100%;
+    padding-top: 20px;
+    margin-left: 570px;
+    font-size: 25px;
+  }
+  
+  .school{
+    width: 100%;
+    margin-left: 535px;
+    font-size: 20px;
+  }
+  
+  .topright1{
+    width: 100%;
+  }
+
+  .topright2{
+    width: 600px;
+    display: flex;
+    gap: 10px;
+    margin-top: 110px;
+    margin-left: 405px;
+  }
+  
+  
+  .diamond1 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    
+  
+  }
+  
+  .india{
+    width: 130px;
+    height: 130px;
+    margin-top: 15px ;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  
+  .picture{
+    margin-top: -30px;
+    margin-left: -30px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-45deg);
+    object-fit: cover;
+    
+  }
+  
+  .diamond2 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515; 
+    transform: rotate(45deg);
+    position: absolute;
+    top: -90px;
+    left: 25px;
+  
+  }
+  
+  .tri1 {
+    width: 0;
+    height: 0;
+    border-top: 205px solid transparent;
+    border-left: 205px solid #9D1515;
+    border-bottom: 205px solid transparent;
+    position: absolute;
+    top:45px;
+  }
+  
+  
+  .square2 {
+    top: 120px;
+    left: 300px;
+    width: 880px; 
+    height: 40px; 
+    background-color: #B83131; 
+    position: absolute;
+  }
+  
+  .square1 {
+    top: 100px;
+    left: 315px;
+    width: 865px; 
+    height: 40px; 
+    background-color: #545454; 
+    position: absolute;
+  }
+  
+  .line1 {
+    top: 180px;
+    left: 300px;
+    width: 860px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
+  }
+  
+  .line2 {
+    top: 220px;
+    left: 260px;
+    width: 900px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
+  }
+  
+  .contact{
+    width: 100%;
+    margin-left: 5px;
+    display: flex;
+    gap: 5px;
+  } 
+}
+
+
+
+/* For moblie แนวตั้ง*/
+@media (max-width: 767px)and (orientation: portrait) {
+  .top{
+    background-color:white;
     
     width: 100%;
     height: 250px;
@@ -230,7 +668,7 @@ body {
   .left{
     background-color: #545454;
     width: 35%;
-    height: 880px;
+    height: 1000px;
     
   }
   
@@ -323,8 +761,8 @@ body {
   .topright2{
     display: flex;
     gap: 10px;
-    margin-top: 116px;
-    margin-left: 305px;
+    margin-top: 110px;
+    margin-left: 320px;
   }
   
   
@@ -335,7 +773,7 @@ body {
     transform: rotate(45deg);
     position: absolute;
     top: 40px;
-    right: 1000px;
+    right: 80px;
     
   
   }
@@ -365,7 +803,7 @@ body {
     transform: rotate(45deg);
     position: absolute;
     top: -90px;
-    left: 550px;
+    left: 20px;
   
   }
   
@@ -382,8 +820,8 @@ body {
   
   .square2 {
     top: 120px;
-    left: 715px;
-    width: 600px; 
+    left: 300px;
+    width: 520px; 
     height: 40px; 
     background-color: #B83131; 
     position: absolute;
@@ -391,8 +829,8 @@ body {
   
   .square1 {
     top: 100px;
-    left: 715px;
-    width: 600px; 
+    left: 315px;
+    width: 505px; 
     height: 40px; 
     background-color: #545454; 
     position: absolute;
@@ -400,8 +838,8 @@ body {
   
   .line1 {
     top: 180px;
-    left: 815px;
-    width: 500px; 
+    left: 300px;
+    width: 505px; 
     height: 3px; 
     background-color: #000000; 
     position: absolute; 
@@ -409,8 +847,8 @@ body {
   
   .line2 {
     top: 220px;
-    left: 775px;
-    width: 540px; 
+    left: 260px;
+    width: 545px; 
     height: 3px; 
     background-color: #000000; 
     position: absolute; 
@@ -428,68 +866,211 @@ body {
 
 
 
-/* For moblie*/
-@media (max-width: 767px) {
-  .top {
-    height: 150px;
+/* For moblie แนวนอน*/
+@media (max-width: 859px)and (orientation: landscape) {
+  .top{
+    background-color:white;
+    
+    width: 100%;
+    height: 250px;
   }
   
-  .bottom {
-    flex-direction: column;
+  .bottom{
+    display: flex;
+  }
+  .left{
+    background-color: #545454;
+    width: 35%;
+    height: 1000px;
+    
+  }
+  
+  .right{
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    height: 880px;
+    
+  }
+  
+  .App{
+    width: 8.27in;
+    height: 11.69in;  
+    
+  }
+  
+  .header{
+    color: #FFD600;
+    font-size:30px ;
+  }
+  
+  .list{
+    color: white;
   }
 
-  .left, .right {
-    width: 100%;
-    height: auto;
-  }
 
-  .insideleft1, .insideleft2, .insideright1, .top1, .top2, .bot1, .bot3, .name, .school {
-    margin: 20px;
-    text-align: center;
+  .insideleft1{
+    margin-top: 200px;
+    margin-left:40px;
+    font-size: 20px;
   }
-
-  .topright2 {
-    flex-direction: column;
+  
+  .insideleft2{
+    margin-top: 40px;
+    margin-left:40px;
+    font-size: 20px;
+  }
+  
+  .listskill{
+    color: white;
+  }
+  
+  
+  .insideright1{
+    margin-top: 60px;
+    
+  }
+  
+  .top1{
+    margin-left: 40px;
+    color: black;
+    font-size:30px ;
+  }
+  
+  .top2{
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size:30px ;
+    color: black;
+    
+  }
+  
+  .bot1{
+    margin-left: 60px;
+    font-size:20px ;
+    
+  }
+  
+  .bot3{
     margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 40px;
+    font-size: 20px;
   }
-
-  .diamond1, .diamond2 {
-    width: 100px;
-    height: 100px;
-    top: 10px;
-    right: calc(50% - 50px);
+  
+  .name{
+    padding-top: 20px;
+    margin-left: 450px;
+    font-size: 25px;
   }
-
-  .india {
-    width: 80px;
-    height: 80px;
+  
+  .school{
+    margin-left: 420px;
+    font-size: 20px;
   }
-
-  .picture {
-    width: 100px;
-    height: 100px;
-    margin-top: -15px;
-    margin-left: -15px;
+  
+  
+  .topright2{
+    display: flex;
+    gap: 10px;
+    margin-top: 110px;
+    margin-left: 320px;
   }
-
+  
+  
+  .diamond1 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 40px;
+    right: 500px;
+    
+  
+  }
+  
+  .india{
+    width: 130px;
+    height: 130px;
+    margin-top: 15px ;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  
+  .picture{
+    margin-top: -30px;
+    margin-left: -30px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(-45deg);
+    object-fit: cover;
+    
+  }
+  
+  .diamond2 {
+    width: 160px;
+    height: 160px;
+    background-color: #9D1515; 
+    transform: rotate(45deg);
+    position: absolute;
+    top: -90px;
+    left: 20px;
+  
+  }
+  
   .tri1 {
-    border-top: 102.5px solid transparent;
-    border-left: 102.5px solid #9D1515;
-    border-bottom: 102.5px solid transparent;
+    width: 0;
+    height: 0;
+    border-top: 205px solid transparent;
+    border-left: 205px solid #9D1515;
+    border-bottom: 205px solid transparent;
+    position: absolute;
+    top:45px;
   }
-
-  .square1, .square2 {
-    width: 100%;
+  
+  
+  .square2 {
+    top: 120px;
+    left: 300px;
+    width: 544px; 
+    height: 40px; 
+    background-color: #B83131; 
+    position: absolute;
   }
-
-  .line1, .line2 {
-    width: 90%;
-    margin-left: 5%;
+  
+  .square1 {
+    top: 100px;
+    left: 300px;
+    width: 544px; 
+    height: 40px; 
+    background-color: #545454; 
+    position: absolute;
   }
-
-  .contact {
-    margin-top: 20px;
+  
+  .line1 {
+    top: 180px;
+    left: 300px;
+    width: 520px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
   }
+  
+  .line2 {
+    top: 220px;
+    left: 260px;
+    width: 560px; 
+    height: 3px; 
+    background-color: #000000; 
+    position: absolute; 
+  }
+  
+  .contact{
+    display: flex;
+    gap: 5px;
+  } 
 }
 
-
+body {
+  font-family: 'Roboto', sans-serif;
+}
